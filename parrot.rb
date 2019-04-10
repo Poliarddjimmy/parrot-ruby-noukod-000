@@ -2,7 +2,10 @@
 # returns the phrase
 def parrot(name = "Squawk!")
   name.each do |na|
-    na.each do ||
+    na.each do |nan|
+      puts nan
+    end
+  end
 end
 
 parrot("Pretty bird!")
